@@ -1,4 +1,3 @@
-cat << 'EOF' > README.md
 # 🎨 CMYK Converter CLI & Dolphin Integration
 
 > Conversor interativo e inteligente de arquivos RGB para CMYK (Preimpressão Gráfica) para Linux, com suporte a terminal e integração ao Dolphin File Manager (KDE Plasma 5 e 6).
@@ -42,15 +41,19 @@ sudo pacman -S ghostscript imagemagick kdialog
 # Ubuntu / Debian
 sudo apt install ghostscript imagemagick kdialog
 
-🚀 Instalação em 1 Clique
+```
+
+## 🚀 Instalação em 1 Clique
 Clone o repositório e rode o instalador:
 
 Bash
-git clone [https://github.com/criativotech/cmyk-converter.git](https://github.com/criativotech/cmyk-converter.git)
+```git clone [https://github.com/criativotech/cmyk-converter.git](https://github.com/criativotech/cmyk-converter.git)
 cd cmyk-converter
 chmod +x install.sh
 ./install.sh
-🖥️ Formas de Uso
+```
+
+## 🖥️ Formas de Uso
 1. Pelo Dolphin (Interface Gráfica)
 Clique com o botão direito sobre qualquer imagem ou PDF.
 
@@ -60,18 +63,24 @@ Selecione o perfil de cor na janela gráfica que abrir e confirme.
 
 2. Pelo Terminal (CLI Interativo)
 Execute em qualquer pasta:
-
 Bash
+```
 cmyk-converter
+```
+
 Arraste o arquivo ou digite o caminho quando solicitado.
 
-🗑️ Desinstalação
+## 🗑️ Desinstalação
 Para remover completamente o utilitário e os menus:
-
+```
 Bash
 ./uninstall.sh
-⭐ Apoie o Projeto
+```
+
+## ⭐ Apoie o Projeto
 Desenvolvido por Criativotech para a comunidade de criadores visuais no Linux. Se este projeto ajudou seu fluxo de impressão, deixe uma estrela ⭐ no repositório!
+
+---
 
 ## Autor
 
@@ -79,4 +88,3 @@ Desenvolvido por Criativotech para a comunidade de criadores visuais no Linux. S
 
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/K3K01KWCZW)
 ---
-EOF
