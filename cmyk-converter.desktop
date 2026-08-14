@@ -1,0 +1,13 @@
+[Desktop Entry]
+Type=Service
+X-KDE-ServiceTypes=KonqPopupMenu/Plugin
+MimeType=image/jpeg;image/png;image/tiff;image/webp;application/pdf;
+Actions=ConvertToCMYK;
+X-KDE-Submenu=CMYK
+X-KDE-Submenu[pt_BR]=CMYK
+
+[Desktop Action ConvertToCMYK]
+Name=CONVERT
+Name[pt_BR]=CONVERT
+Icon=document-print
+Exec=/bin/bash cmyk-converter-gui.sh %u
